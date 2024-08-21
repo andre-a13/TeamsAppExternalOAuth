@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "teams-o-auth-poc-client-side-solution",
+    "id": "afa68547-fce9-48fe-b639-f07d7f04b30a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TeamsOAuthPoc description"
+      },
+      "longDescription": {
+        "default": "TeamsOAuthPoc description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "teams-o-auth-poc Feature",
+        "description": "The feature that activates elements of the teams-o-auth-poc solution.",
+        "id": "72d7cd0e-3c7a-4612-94e5-e6a3f5b7ff87",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/teams-o-auth-poc.sppkg"
+  }
+}

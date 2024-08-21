@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "o-auth-poc-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/oAuthPoc/OAuthPocWebPart.js",
+          "manifest": "./src/webparts/oAuthPoc/OAuthPocWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OAuthPocWebPartStrings": "lib/webparts/oAuthPoc/loc/{locale}.js"
+  }
+}
